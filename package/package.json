@@ -1,0 +1,19 @@
+{
+  "name": "@cbechstein-digital/creator-localizations",
+  "version": "0.0.0",
+  "author": "C. Bechstein Digital GmbH",
+  "description": "Localizations package for the CB Creator app",
+  "keywords": [
+    "C. Bechstein",
+    "Localizations"
+  ],
+  "license": "Apache-2.0",
+  "files": [
+    "localizations/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbechstein-digital/creator-localizations",
+    "directory": "package"
+  }
+}

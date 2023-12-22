@@ -1,0 +1,12 @@
+{
+  "name": "creator-localizations",
+  "version": "1.0.0",
+  "author": "C. Bechstein Digital GmbH",
+  "license": "Apache-2.0",
+  "scripts": {
+    "generate-localizations": "node generate-localizations.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5"
+  }
+}

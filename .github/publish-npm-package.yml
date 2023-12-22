@@ -1,0 +1,91 @@
+name: Publish package to GitHub package registry
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  install-dependencies:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '18.x'
+      - run: npm ci
+
+  generate-localizations:
+    needs: install-dependencies
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '18.x'
+      - run: npm ci
+      - run: npm run generate-localizations
+      - run: |
+          git config --global user.name "${GITHUB_ACTOR_ID}" 
+          git config user.email "${GITHUB_ACTOR_ID}@users.noreply.github.com"
+      - run: git add .
+        working-directory: package
+      - run: git commit -m "[skip ci] generated localization files from language tokens"
+      - run: git push
+
+  version-increase:
+    needs: generate-localizations
+    runs-on: ubuntu-latest
+    if: |
+      contains(github.event.head_commit.message, '[patch]') || 
+      contains(github.event.head_commit.message, '[minor]') || 
+      contains(github.event.head_commit.message, '[major]') ||
+      contains(github.event.head_commit.message, '[prerelease]')
+    env:
+      PATCH: ${{ contains(github.event.head_commit.message, '[patch]') }}
+      MINOR: ${{ contains(github.event.head_commit.message, '[minor]') }}
+      MAJOR: ${{ contains(github.event.head_commit.message, '[major]') }}
+      PRERELEASE: ${{ contains(github.event.head_commit.message, '[prerelease]') }}
+    defaults:
+      run:
+        working-directory: package
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '18.x'
+      - run: git pull
+      - run: npm version patch
+        if: ${{ env.PATCH == 'true' }}
+      - run: npm version minor
+        if: ${{ env.MINOR == 'true' }}
+      - run: npm version major
+        if: ${{ env.MAJOR == 'true' }}
+      - run: npm version prerelease
+        if: ${{ env.PRERELEASE == 'true' }}
+      - run: |
+          git config --global user.name "${GITHUB_ACTOR_ID}" 
+          git config user.email "${GITHUB_ACTOR_ID}@users.noreply.github.com"
+      - run: |
+          VERSION=$(node -p "require('./package.json').version")
+          git add package.json
+          git commit -m "[skip ci] increased package version to ${VERSION}"
+      - run: git push
+
+  publish-gpr:
+    needs: version-increase
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
+    env:
+      NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: git pull
+      - run: |
+          echo "//npm.pkg.github.com/:_authToken=$NODE_AUTH_TOKEN" > .npmrc
+          echo '@cbechstein-digital:registry=https://npm.pkg.github.com' >> .npmrc
+          echo 'always-auth=true' >> .npmrc
+        working-directory: package
+      - run: npm publish
+        working-directory: package
