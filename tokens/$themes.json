@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "id": "eed69af6479d8909a2f9063f8139bb6a70e5d863",
+    "name": "de",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "creator-texts/de": "enabled"
+    },
+    "group": "Language"
+  },
+  {
+    "id": "ea3d1512ec40985e175724c30e2347a82c6a26de",
+    "name": "en",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "creator-texts/en": "enabled"
+    },
+    "group": "Language"
+  }
+]
