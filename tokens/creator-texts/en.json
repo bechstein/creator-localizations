@@ -1,1 +1,8 @@
-{}
+{
+  "words": {
+    "pro": {
+      "value": "Pro",
+      "type": "text"
+    }
+  }
+}
