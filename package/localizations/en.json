@@ -9,6 +9,9 @@
 	"intro-connection.checking": "Checking instrument connection",
 	"intro-connection.headline": "Establish MIDI Connection",
 	"intro-connection.bodytext.connect-advice": "Connect your device to any MIDI keyboard to enjoy the full glance of our app.",
+	"intro-connection.bodytext.bechstein-note": "If you connect a C. Bechstein MIDI instrument, the 15-second recording limit is removed and you can record for an unlimited time.",
+	"intro-connection.interaction.connect": "Connect MIDI Piano",
+	"intro-connection.interaction.demo": "Demo Mode",
 	"settings.title": "Profile Settings",
 	"settings.pro.title": "Pro",
 	"settings.pro.settings.title": "Pro Settings",
@@ -27,12 +30,15 @@
 	"settings.upgrade.title": "Creator Pro",
 	"settings.upgrade.headline": "Your Story Deserves More",
 	"settings.upgrade.bodytext": "Say goodbye to 15-second restrictions. Your creativity knows no bounds – so why should your recording time? Upgrade now and tell your stories in full length!",
-	"settings.upgrade.price": "4,99 €/Month",
-	"settings.upgrade.interaction.upgrade": "Unlock Pro",
-	"settings.upgrade.interaction.restore-purchase": "Restore Purchase",
-	"settings.upgrade.upgrade-note": "Already purchased Pro?",
 	"home.dialog.no-connection.title": "MIDI Connection",
 	"home.dialog.no-connection.body": "Please connect a MIDI keyboard via USB or Bluetooth.",
 	"home.dialog.no-connection.interaction.connect": "Connect Now",
-	"home.dialog.no-connection.interaction.demo": "Demo Mode"
+	"home.dialog.no-connection.interaction.demo": "Demo Mode",
+	"modal.upgrade.title": "Creator Pro",
+	"modal.upgrade.headline": "Your Story Deserves More",
+	"modal.upgrade.bodytext": "While our app is generaly free to check out, the recording time is limited to 15 seconds. \n\nUpgrade to Pro to unlock the Pro features like unlimited recording time and removal of the watermark.",
+	"in-app-purchase.interaction.upgrade": "Unlock Pro",
+	"in-app-purchase.interaction.restore": "Restore Purchase",
+	"in-app-purchase.price": "4,99 €/Month",
+	"in-app-purchase.restore-note": "Already purchased Pro?"
 }
