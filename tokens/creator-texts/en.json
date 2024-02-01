@@ -46,6 +46,20 @@
       "connect-advice": {
         "value": "Connect your device to any MIDI keyboard to enjoy the full glance of our app.",
         "type": "text"
+      },
+      "bechstein-note": {
+        "value": "If you connect a C. Bechstein MIDI instrument, the 15-second recording limit is removed and you can record for an unlimited time.",
+        "type": "text"
+      }
+    },
+    "interaction": {
+      "connect": {
+        "value": "Connect MIDI Piano",
+        "type": "text"
+      },
+      "demo": {
+        "value": "Demo Mode",
+        "type": "text"
       }
     }
   },
@@ -134,24 +148,6 @@
       "bodytext": {
         "value": "Say goodbye to 15-second restrictions. Your creativity knows no bounds – so why should your recording time? Upgrade now and tell your stories in full length!",
         "type": "text"
-      },
-      "price": {
-        "value": "4,99 €/Month",
-        "type": "text"
-      },
-      "interaction": {
-        "upgrade": {
-          "value": "Unlock Pro",
-          "type": "text"
-        },
-        "restore-purchase": {
-          "value": "Restore Purchase",
-          "type": "text"
-        }
-      },
-      "upgrade-note": {
-        "value": "Already purchased Pro?",
-        "type": "text"
       }
     }
   },
@@ -177,6 +173,42 @@
           }
         }
       }
+    }
+  },
+  "modal": {
+    "upgrade": {
+      "title": {
+        "value": "Creator Pro",
+        "type": "text"
+      },
+      "headline": {
+        "value": "Your Story Deserves More",
+        "type": "text"
+      },
+      "bodytext": {
+        "value": "While our app is generaly free to check out, the recording time is limited to 15 seconds. \n\nUpgrade to Pro to unlock the Pro features like unlimited recording time and removal of the watermark.",
+        "type": "text"
+      }
+    }
+  },
+  "in-app-purchase": {
+    "interaction": {
+      "upgrade": {
+        "value": "Unlock Pro",
+        "type": "text"
+      },
+      "restore": {
+        "value": "Restore Purchase",
+        "type": "text"
+      }
+    },
+    "price": {
+      "value": "4,99 €/Month",
+      "type": "text"
+    },
+    "restore-note": {
+      "value": "Already purchased Pro?",
+      "type": "text"
     }
   }
 }
