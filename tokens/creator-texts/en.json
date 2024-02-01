@@ -3,6 +3,180 @@
     "pro": {
       "value": "Pro",
       "type": "text"
+    },
+    "done": {
+      "value": "Done",
+      "type": "text"
+    },
+    "back": {
+      "value": "Back",
+      "type": "text"
+    }
+  },
+  "intro": {
+    "headline": {
+      "value": "See Your Melody in Motion: The Ultimate Piano Recording App!",
+      "type": "text"
+    },
+    "bodytext": {
+      "value": "Bring your piano playing to life in a whole new way. Record yourself and watch as the keys you press illuminate on a virtual keyboard, all thanks to seamless MIDI connection.",
+      "type": "text"
+    },
+    "interaction": {
+      "start-button": {
+        "value": "Start Now",
+        "type": "text"
+      }
+    },
+    "footer-note": {
+      "value": "On the free plan the recording time is limited to 15 seconds. No account required.",
+      "type": "text"
+    }
+  },
+  "intro-connection": {
+    "checking": {
+      "value": "Checking instrument connection",
+      "type": "text"
+    },
+    "headline": {
+      "value": "Establish MIDI Connection",
+      "type": "text"
+    },
+    "bodytext": {
+      "connect-advice": {
+        "value": "Connect your device to any MIDI keyboard to enjoy the full glance of our app.",
+        "type": "text"
+      }
+    }
+  },
+  "settings": {
+    "title": {
+      "value": "Profile Settings",
+      "type": "text"
+    },
+    "pro": {
+      "title": {
+        "value": "Pro",
+        "type": "text"
+      },
+      "settings": {
+        "title": {
+          "value": "Pro Settings",
+          "type": "text"
+        },
+        "visuals": {
+          "title": {
+            "value": "Visuals",
+            "type": "text"
+          },
+          "watermark": {
+            "value": "Show Watermark",
+            "type": "text"
+          }
+        }
+      }
+    },
+    "connection": {
+      "title": {
+        "value": "Connection Settings",
+        "type": "text"
+      },
+      "manage": {
+        "title": {
+          "value": "Manage Connections",
+          "type": "text"
+        },
+        "connected-devices": {
+          "value": "Connected Devices",
+          "type": "text"
+        },
+        "bluetooth-midi": {
+          "value": "Bluetooth MIDI Devices",
+          "type": "text"
+        },
+        "connect-disconnect": {
+          "value": "Connect / Disconnect",
+          "type": "text"
+        }
+      },
+      "allow-network": {
+        "value": "Allow Network Sessions",
+        "type": "text"
+      }
+    },
+    "legal": {
+      "title": {
+        "value": "C. Bechstein",
+        "type": "text"
+      },
+      "privacy": {
+        "value": "Privacy Policy",
+        "type": "text"
+      },
+      "terms": {
+        "value": "Terms of Use",
+        "type": "text"
+      },
+      "imprint": {
+        "value": "Imprint",
+        "type": "text"
+      }
+    },
+    "upgrade": {
+      "title": {
+        "value": "Creator Pro",
+        "type": "text"
+      },
+      "headline": {
+        "value": "Your Story Deserves More",
+        "type": "text"
+      },
+      "bodytext": {
+        "value": "Say goodbye to 15-second restrictions. Your creativity knows no bounds – so why should your recording time? Upgrade now and tell your stories in full length!",
+        "type": "text"
+      },
+      "price": {
+        "value": "4,99 €/Month",
+        "type": "text"
+      },
+      "interaction": {
+        "upgrade": {
+          "value": "Unlock Pro",
+          "type": "text"
+        },
+        "restore-purchase": {
+          "value": "Restore Purchase",
+          "type": "text"
+        }
+      },
+      "upgrade-note": {
+        "value": "Already purchased Pro?",
+        "type": "text"
+      }
+    }
+  },
+  "home": {
+    "dialog": {
+      "no-connection": {
+        "title": {
+          "value": "MIDI Connection",
+          "type": "text"
+        },
+        "body": {
+          "value": "Please connect a MIDI keyboard via USB or Bluetooth.",
+          "type": "text"
+        },
+        "interaction": {
+          "connect": {
+            "value": "Connect Now",
+            "type": "text"
+          },
+          "demo": {
+            "value": "Demo Mode",
+            "type": "text"
+          }
+        }
+      }
     }
   }
 }
