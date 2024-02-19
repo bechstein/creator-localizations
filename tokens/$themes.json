@@ -6,7 +6,12 @@
     "selectedTokenSets": {
       "creator-texts/de": "enabled"
     },
-    "group": "Language"
+    "group": "Language",
+    "$figmaCollectionId": "VariableCollectionId:721:3659",
+    "$figmaModeId": "721:0",
+    "$figmaVariableReferences": {
+      "words.pro": "594e052b980bee9d8738cc5249c83a8bda94a994"
+    }
   },
   {
     "id": "ea3d1512ec40985e175724c30e2347a82c6a26de",
@@ -15,6 +20,52 @@
     "selectedTokenSets": {
       "creator-texts/en": "enabled"
     },
-    "group": "Language"
+    "group": "Language",
+    "$figmaCollectionId": "VariableCollectionId:721:3659",
+    "$figmaModeId": "721:1",
+    "$figmaVariableReferences": {
+      "words.pro": "594e052b980bee9d8738cc5249c83a8bda94a994",
+      "words.done": "2f05796ad3aa49076e2c02260d702783c5a29cb2",
+      "words.back": "ffb246939cac1185edc06779389b5ac7d875dfca",
+      "intro.headline": "4b3783e088d9b0b8d4144c9e5b9b4e2785ea68c5",
+      "intro.bodytext": "ae901d508be1ab3720d54cfb177c51f34f8a07ba",
+      "intro.interaction.start-button": "5d4fb19a83ebbac710100e1e828a3813ee4fd4ae",
+      "intro.footer-note": "3ea688fdb3d4693cc8f7fda8359992120d4ce2c0",
+      "intro-connection.checking": "b0a5d19c4f06d29b47063eee06379ab9436c8dd3",
+      "intro-connection.headline": "ae0d02f5e7fa7539cdf21cadc66fa15a34e8be3e",
+      "intro-connection.bodytext.connect-advice": "20ca714541086b58d1096462e3a35461d118cc9f",
+      "settings.title": "a4339a81c7f06199d77cb9728b71875d2168dd45",
+      "settings.pro.title": "2609d20c9abfe10aa96319e99e3be3b10fd5d436",
+      "settings.pro.settings.title": "2e78ac38f691d6b9da9897f7fb337505583f2017",
+      "settings.pro.settings.visuals.title": "d504a11e2bffc2e1e421ebd6d1c729f1d5099001",
+      "settings.pro.settings.visuals.watermark": "6cc0eadb012de69d36eb4903d14e2178b61283d8",
+      "settings.connection.title": "76bbe81a1ab4a97fc5e5cebef24e7661860f641d",
+      "settings.connection.manage.title": "c7b9f80b628b1be9344e427b71f4201d112fefa8",
+      "settings.connection.manage.connected-devices": "29ed3f7a73286b3a0535c74345a1c4849ef92b2c",
+      "settings.connection.manage.bluetooth-midi": "c7d1916110094c48167f62714ff09f323f0f455d",
+      "settings.connection.manage.connect-disconnect": "c10242c2672f33fe99c89f8cefc951477f2de710",
+      "settings.connection.allow-network": "9119b2c6140f81841c107975f6ce0c248943d5ac",
+      "settings.legal.title": "21f37407fcd7f92f92ab2e8284c2fc2ed4fe80e8",
+      "settings.legal.privacy": "415573875ebfc23cc71377c114ec80649e9d3645",
+      "settings.legal.terms": "32de1cec18dcfe9c1c68e487c74760227acd247d",
+      "settings.legal.imprint": "c04a04a33dfa61729383e637d5606ed4e7653799",
+      "settings.upgrade.title": "e8a6b207067e4185133d224be1a264afbeae60c8",
+      "settings.upgrade.headline": "6b58456aa58cc290628e3d8579d024607d1f9609",
+      "settings.upgrade.bodytext": "b6c55c1b202d7501e46f96ac29202c1334fea471",
+      "home.dialog.no-connection.title": "36570584f933081d249c6dd499035079e7ca1152",
+      "home.dialog.no-connection.body": "2c3313a3a48dacbf631951f7eb498046795864c0",
+      "home.dialog.no-connection.interaction.connect": "22dece63d6f08508f7faf6c004035d2963f42959",
+      "home.dialog.no-connection.interaction.demo": "982de3b0eebac2c921cd61d02254dd5c68dc6074",
+      "modal.upgrade.title": "7098dc78955ea2a957db96966db8874bd5deae40",
+      "modal.upgrade.headline": "a1a78f62a20658f2b7d296fd1780b1f0039cbde6",
+      "modal.upgrade.bodytext": "3108cdd400a8990d1595c03c87c2b61feeb3ced5",
+      "in-app-purchase.interaction.upgrade": "c347bbccf2b42c730810afcc678a48e0ad3f004f",
+      "in-app-purchase.price": "3803937e16dc0550ae123f08af5db844bd905e90",
+      "in-app-purchase.interaction.restore": "e2f0c91c34a57360553ca62a61fbbfc7ccf09f7e",
+      "in-app-purchase.restore-note": "4d0b2a1fdd974e727af66201ffbe21a5227a85d9",
+      "intro-connection.bodytext.bechstein-note": "514a709fc6f4afb69a76b8f14d2858603f945fd3",
+      "intro-connection.interaction.connect": "5bdad994575981fa69967bdc084205267a15f212",
+      "intro-connection.interaction.demo": "6acf645e81b3abe5dc7b2e663e2a097be9560e87"
+    }
   }
 ]

@@ -209,6 +209,10 @@
     "restore-note": {
       "value": "Already purchased Pro?",
       "type": "text"
+    },
+    "redeem": {
+      "value": "Redeem Code",
+      "type": "text"
     }
   }
 }
