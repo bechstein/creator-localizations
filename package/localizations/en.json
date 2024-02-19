@@ -40,5 +40,6 @@
 	"in-app-purchase.interaction.upgrade": "Unlock Pro",
 	"in-app-purchase.interaction.restore": "Restore Purchase",
 	"in-app-purchase.price": "4,99 €/Month",
-	"in-app-purchase.restore-note": "Already purchased Pro?"
+	"in-app-purchase.restore-note": "Already purchased Pro?",
+	"in-app-purchase.redeem": "Redeem Code"
 }
