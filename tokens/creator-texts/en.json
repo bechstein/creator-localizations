@@ -31,6 +31,10 @@
     "footer-note": {
       "value": "On the free plan the recording time is limited to 15 seconds. No account required.",
       "type": "text"
+    },
+    "name": {
+      "value": "Creator",
+      "type": "text"
     }
   },
   "intro-connection": {
