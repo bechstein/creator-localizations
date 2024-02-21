@@ -6,6 +6,7 @@
 	"intro.bodytext": "Bring your piano playing to life in a whole new way. Record yourself and watch as the keys you press illuminate on a virtual keyboard, all thanks to seamless MIDI connection.",
 	"intro.interaction.start-button": "Start Now",
 	"intro.footer-note": "On the free plan the recording time is limited to 15 seconds. No account required.",
+	"intro.name": "Creator",
 	"intro-connection.checking": "Checking instrument connection",
 	"intro-connection.headline": "Establish MIDI Connection",
 	"intro-connection.bodytext.connect-advice": "Connect your device to any MIDI keyboard to enjoy the full glance of our app.",
