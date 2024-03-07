@@ -218,5 +218,19 @@
       "value": "Redeem Code",
       "type": "text"
     }
+  },
+  "links": {
+    "terms-of-use": {
+      "value": "https://www.bechstein-digital.com/en/terms-of-service/",
+      "type": "text"
+    },
+    "privacy-policy": {
+      "value": "https://www.bechstein-digital.com/en/privacy/",
+      "type": "text"
+    },
+    "imprint": {
+      "value": "https://www.bechstein-digital.com/en/legal-notice/",
+      "type": "text"
+    }
   }
 }
