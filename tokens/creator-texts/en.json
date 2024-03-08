@@ -62,7 +62,7 @@
         "type": "text"
       },
       "demo": {
-        "value": "Demo Mode",
+        "value": "Skip",
         "type": "text"
       }
     }
