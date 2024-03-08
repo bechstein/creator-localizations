@@ -12,7 +12,7 @@
 	"intro-connection.bodytext.connect-advice": "Connect your device to any MIDI keyboard to enjoy the full glance of our app.",
 	"intro-connection.bodytext.bechstein-note": "If you connect a C. Bechstein MIDI instrument, the 15-second recording limit is removed and you can record for an unlimited time.",
 	"intro-connection.interaction.connect": "Connect MIDI Piano",
-	"intro-connection.interaction.demo": "Demo Mode",
+	"intro-connection.interaction.demo": "Skip",
 	"settings.title": "Profile Settings",
 	"settings.pro.title": "Pro",
 	"settings.pro.settings.title": "Pro Settings",
