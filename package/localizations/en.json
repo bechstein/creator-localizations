@@ -13,7 +13,7 @@
 	"intro-connection.bodytext.bechstein-note": "If you connect a C. Bechstein MIDI instrument, the 15-second recording limit is removed and you can record for an unlimited time.",
 	"intro-connection.interaction.connect": "Connect MIDI Piano",
 	"intro-connection.interaction.demo": "Skip",
-	"settings.title": "Settings",
+	"settings.title": "Profile Settings",
 	"settings.pro.title": "Pro",
 	"settings.pro.settings.title": "Pro Settings",
 	"settings.pro.settings.visuals.title": "Visuals",
