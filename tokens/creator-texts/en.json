@@ -69,7 +69,7 @@
   },
   "settings": {
     "title": {
-      "value": "Profile Settings",
+      "value": "Settings",
       "type": "text"
     },
     "pro": {
