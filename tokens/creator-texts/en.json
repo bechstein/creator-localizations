@@ -177,6 +177,38 @@
           }
         }
       }
+    },
+    "ui": {
+      "keys": {
+        "wide": {
+          "value": "Wide",
+          "type": "text"
+        },
+        "compact": {
+          "value": "Compact",
+          "type": "text"
+        }
+      },
+      "labels": {
+        "doremi": {
+          "value": "Do-Re-Mi",
+          "type": "text"
+        },
+        "cde": {
+          "value": "C-D-E",
+          "type": "text"
+        }
+      },
+      "effects": {
+        "on": {
+          "value": "Effects On",
+          "type": "text"
+        },
+        "off": {
+          "value": "Effects Off",
+          "type": "text"
+        }
+      }
     }
   },
   "modal": {
