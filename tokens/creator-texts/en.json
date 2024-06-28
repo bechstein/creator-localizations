@@ -264,5 +264,31 @@
       "value": "https://www.bechstein-digital.com/en/legal-notice/",
       "type": "text"
     }
+  },
+  "effects": {
+    "no-effect": {
+      "value": "No Effect",
+      "type": "text"
+    },
+    "particle-1": {
+      "value": "Magic Particles",
+      "type": "text"
+    },
+    "particle-2": {
+      "value": "Fairy Dust",
+      "type": "text"
+    },
+    "piano-roll-1": {
+      "value": "Piano Roll",
+      "type": "text"
+    },
+    "piano-roll-2": {
+      "value": "Rainbow Roll",
+      "type": "text"
+    },
+    "flying-notes-1": {
+      "value": "Flying Notes",
+      "type": "text"
+    }
   }
 }
