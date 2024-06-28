@@ -83,7 +83,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: git pull
+      - run: |
+          echo "//npm.pkg.github.com/:_authToken=$NODE_AUTH_TOKEN" > .npmrc
+          echo '@bechstein:registry=https://npm.pkg.github.com' >> .npmrc
+          echo 'always-auth=true' >> .npmrc
+        working-directory: package
       - run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         working-directory: package
