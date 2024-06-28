@@ -74,6 +74,7 @@ jobs:
       - run: git push
 
   publish-gpr:
+    needs: version-increase
     runs-on: ubuntu-latest
     permissions:
       packages: write
