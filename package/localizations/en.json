@@ -51,5 +51,11 @@
 	"in-app-purchase.redeem": "Redeem Code",
 	"links.terms-of-use": "https://www.bechstein-digital.com/en/terms-of-service/",
 	"links.privacy-policy": "https://www.bechstein-digital.com/en/privacy/",
-	"links.imprint": "https://www.bechstein-digital.com/en/legal-notice/"
+	"links.imprint": "https://www.bechstein-digital.com/en/legal-notice/",
+	"effects.no-effect": "No Effect",
+	"effects.particle-1": "Magic Particles",
+	"effects.particle-2": "Fairy Dust",
+	"effects.piano-roll-1": "Piano Roll",
+	"effects.piano-roll-2": "Rainbow Roll",
+	"effects.flying-notes-1": "Flying Notes"
 }
