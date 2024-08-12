@@ -30,7 +30,7 @@
 	"settings.legal.imprint": "Imprint",
 	"settings.upgrade.title": "Creator Pro",
 	"settings.upgrade.headline": "Your Story Deserves More",
-	"settings.upgrade.bodytext": "Say goodbye to 15-second restrictions. Your creativity knows no bounds – so why should your recording time? Upgrade now and tell your stories in full length!",
+	"settings.upgrade.bodytext": "Upgrade to Pro to unlock more effects and the option to remove the watermark.",
 	"home.dialog.no-connection.title": "MIDI Connection",
 	"home.dialog.no-connection.body": "Please connect a MIDI keyboard via USB or Bluetooth.",
 	"home.dialog.no-connection.interaction.connect": "Connect Now",
@@ -43,7 +43,7 @@
 	"home.ui.effects.off": "Effects Off",
 	"modal.upgrade.title": "Creator Pro",
 	"modal.upgrade.headline": "Your Story Deserves More",
-	"modal.upgrade.bodytext": "While our app is generaly free to check out, the recording time is limited to 15 seconds. \n\nUpgrade to Pro to unlock the Pro features like unlimited recording time and removal of the watermark.",
+	"modal.upgrade.bodytext": "Upgrade to Pro to unlock more effects and the option to remove the watermark.",
 	"in-app-purchase.interaction.upgrade": "Unlock Pro",
 	"in-app-purchase.interaction.restore": "Restore Purchase",
 	"in-app-purchase.price": "4,99 €/Month",
