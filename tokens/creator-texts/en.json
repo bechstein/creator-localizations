@@ -28,10 +28,6 @@
         "type": "text"
       }
     },
-    "footer-note": {
-      "value": "On the free plan the recording time is limited to 15 seconds. No account required.",
-      "type": "text"
-    },
     "name": {
       "value": "Creator",
       "type": "text"
@@ -108,12 +104,12 @@
           "value": "Connected Devices",
           "type": "text"
         },
-        "bluetooth-midi": {
-          "value": "Bluetooth MIDI Devices",
-          "type": "text"
-        },
         "connect-disconnect": {
           "value": "Connect / Disconnect",
+          "type": "text"
+        },
+        "bluetooth-midi": {
+          "value": "Bluetooth MIDI Devices",
           "type": "text"
         }
       },
@@ -236,11 +232,11 @@
       "restore": {
         "value": "Restore Purchase",
         "type": "text"
+      },
+      "year": {
+        "value": "Year",
+        "type": "text"
       }
-    },
-    "price": {
-      "value": "4,99 €/Month",
-      "type": "text"
     },
     "restore-note": {
       "value": "Already purchased Pro?",
@@ -248,6 +244,10 @@
     },
     "redeem": {
       "value": "Redeem Code",
+      "type": "text"
+    },
+    "month": {
+      "value": "Month",
       "type": "text"
     }
   },
