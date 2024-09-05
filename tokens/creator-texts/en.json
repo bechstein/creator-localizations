@@ -249,6 +249,10 @@
     "year": {
       "value": "Year",
       "type": "text"
+    },
+    "terms": {
+      "value": "A subscription gives you unlimited access to all app features. Subscriptions are billed annually (as shown above) and charged to your Google Play account. You can manage or cancel your subscriptions at any time via the Google Play Store.",
+      "type": "text"
     }
   },
   "links": {
@@ -275,7 +279,7 @@
       "type": "text"
     },
     "particle-2": {
-      "value": "Gravity Balls",
+      "value": "Gravity",
       "type": "text"
     },
     "piano-roll-1": {
