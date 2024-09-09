@@ -1,6 +1,6 @@
 {
   "name": "@bechstein/creator-localizations",
-  "version": "0.0.15",
+  "version": "1.0.0",
   "author": "C. Bechstein Digital GmbH",
   "description": "Localizations package for the CB Creator app",
   "keywords": [
